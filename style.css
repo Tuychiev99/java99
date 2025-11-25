@@ -1,0 +1,34 @@
+.create-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.loading {
+    margin-top: 20px;
+    font-size: 18px;
+    display: none;
+}
+
+#resultArea img {
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 12px;
+}
