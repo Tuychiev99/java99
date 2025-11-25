@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AI Art Gallery</h1>
+
+    <div class="controls">
+        <label for="searchInput" class="sr-only">Search artworks</label>
+        <input type="text" id="searchInput" placeholder="Search artworks..." aria-label="Search artworks">
+        
+        <label for="tagFilter" class="sr-only">Filter by tag</label>
+        <select id="tagFilter" aria-label="Filter artworks by tag" title="Filter artworks by tag">
+            <option value="all">All Tags</option>
+            <option value="cyberpunk">Cyberpunk</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="portrait">Portrait</option>
+            <option value="nature">Nature</option>
+            <option value="3D">3D</option>
+        </select>
+    </div>
+</header>
+
+<main id="galleryContainer" class="gallery"></main>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <img id="modalImg" src="" alt="" title="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalPrompt"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
