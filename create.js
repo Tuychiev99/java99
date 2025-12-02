@@ -6,7 +6,8 @@ const resultArea = document.getElementById("resultArea");
 const loading = document.getElementById("loading");
 
 // 🔥 프록시 서버 주소
-const API_URL = "http://localhost:3000/api/generate";
+const API_URL = "https://java99.onrender.com/generate";
+
 
 generateBtn.addEventListener("click", async () => {
   const prompt = promptInput.value.trim();
